@@ -15,6 +15,6 @@ const result = (str) => {
 result(args);
 
 const cities = ["berlin", "paris", "warsaw"];
-const res = cities.join("-");
+const res = cities.join(" ");
 console.log(res);
 // to target first letter- return, to get all the other characters- use slice method from index 1
